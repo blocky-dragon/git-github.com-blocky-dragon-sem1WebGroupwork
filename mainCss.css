@@ -1,0 +1,80 @@
+
+/* nav bar */
+
+nav{
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+nav ul{
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    float: left;
+    width: 25%;
+    background-color: rgb(118, 87, 66);
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    
+}
+
+nav li a{
+    font-family: Rockwell;
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+nav li:hover{
+    background-color: rgb(138, 154, 91); 
+}
+
+
+
+
+
+/* footer*/
+
+footer {
+  background-color: rgb(118, 87, 66);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  font-family: Rockwell;
+  display: flex;
+}
+
+footer h1{
+    font-size: 150%;
+    font-style: normal;
+}
+
+.contact {
+    text-align: center;
+    padding-left: 25%;
+}
+
+.find {
+    text-align: center;
+    padding-left: 25%;
+}
+
+
+
+/* body*/
+
+body{
+    /* 5% top padding to be seen*/
+    padding-top: 5%;
+}
