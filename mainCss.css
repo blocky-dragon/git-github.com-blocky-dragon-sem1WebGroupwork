@@ -78,3 +78,22 @@ body{
     /* 5% top padding to be seen*/
     padding-top: 5%;
 }
+
+
+
+/* U18*/
+
+.U18{
+    color: rgb(226, 208, 43);
+    font-family: Rockwell;
+}
+
+
+.U18 .title{
+    color: rgb(138, 154, 91); 
+    text-align: center;
+    font-family: Rockwell;
+    font-weight: bold;
+    font-size: 200%;
+}
+
