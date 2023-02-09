@@ -1,3 +1,6 @@
+/* vars */
+
+
 
 /* nav bar */
 
@@ -94,7 +97,7 @@ body{
 .U18{
     color: rgb(0, 0, 0);
     font-family: Rockwell;
-    font-size: 150%;
+    font-size: 1vw;
     text-align: center;
 }
 
@@ -104,7 +107,7 @@ body{
     text-align: center;
     font-family: Rockwell;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 2vw;
 }
 
 
@@ -116,28 +119,114 @@ body{
 
 
 #ageMenu{
-    margin-left: 10%;
+    margin-left: 33%;
+}
+
+#ageMenu ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-left: 0%;
 }
 
 
-#ageList ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #1cd69e;
+#firstAge{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#lastAge{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 
 
 #ageList li{
-    display: block;
+    display: none;
     background-color: rgb(118, 87, 66);
-    padding: 8px 16px;
+    padding: 10%;
+    width: 200%;
     text-decoration: none;
 }
 
-#ageList li:hover {
+#ageList li:hover{
+    background-color: rgb(138, 154, 91);
+}
+
+
+#ageSelect{
+    width: 100%;
     
-    color: white;
-  }
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(68, 92, 131);
+}
+
+#ageSelect:hover{
+    background-color: rgb(138, 154, 91);
+}
+
+
+
+
+
+
+/* activity stuff*/
+
+
+#activityMenu{
+    margin-left: 33%;
+}
+
+#activityMenu ul{
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    padding-left: 5%;
+}
+
+
+#firstAge{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#lastAge{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+
+
+#activityList li{
+    display: none;
+    background-color: rgb(118, 87, 66);
+    padding: 10%;
+    width: 20%;
+    text-decoration: none;
+}
+
+#activityList li:hover{
+    background-color: rgb(138, 154, 91);
+}
+
+
+#activitySelect{
+    width: 50%;
+    padding: 1%;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(68, 92, 131);
+}
+
+#activitySelect:hover{
+    background-color: rgb(138, 154, 91);
+}
+
+
+
+.dataChooser{
+    display: flex;
+}
