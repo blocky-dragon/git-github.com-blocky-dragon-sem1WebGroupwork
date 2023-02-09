@@ -197,9 +197,6 @@ body{
     border-bottom-left-radius: 15px;
 }
 
-
-
-
 #activityList li{
     display: none;
     background-color: rgb(118, 87, 66);
@@ -229,4 +226,35 @@ body{
 
 .dataChooser{
     display: flex;
+}
+
+/*comps*/
+
+.trophies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mainText{
+    font-size:x-small;
+}
+
+.trophy{
+    margin: 1%;
+    padding: 1%;
+    flex-basis: 18%;
+    flex-shrink: 0;
+    border: 10px;
+    border-style: double;
+    border-color: black;
+}
+
+.comps .title {
+    font-size: 200%;
+}
+
+.subtitle{
+    font-size: 130%;
 }
