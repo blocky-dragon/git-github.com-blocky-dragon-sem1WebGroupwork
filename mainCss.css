@@ -52,13 +52,16 @@ footer {
   left: 0;
   font-family: Rockwell;
   display: flex;
-  padding: 0;
-  margin: 0;
+  text-align: center;
+  font-size: 0.5vw;
 }
 
-footer .footerHeading{
+.footerHeading{
     font-size: 1vw;
     font-style: normal;
+    padding: 0;
+    margin: 0;
+    padding-top: 1vm;
 }
 
 .contact {
@@ -71,9 +74,7 @@ footer .footerHeading{
     padding-left: 25%;
 }
 
-footer{
-    font-size: 0.5vw;
-}
+
 
 
 
