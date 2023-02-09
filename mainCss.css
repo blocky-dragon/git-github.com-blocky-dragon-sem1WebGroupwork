@@ -20,8 +20,7 @@ nav li{
     float: left;
     width: 25%;
     background-color: rgb(118, 87, 66);
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+    
     
 }
 
@@ -30,7 +29,7 @@ nav li a{
     display: block;
     text-align: center;
     color: white;
-    font-size: 200%;
+    font-size: 1vw;
     text-decoration: none;
 }
 
@@ -53,10 +52,12 @@ footer {
   left: 0;
   font-family: Rockwell;
   display: flex;
+  padding: 0;
+  margin: 0;
 }
 
-footer h1{
-    font-size: 150%;
+footer .footerHeading{
+    font-size: 1vw;
     font-style: normal;
 }
 
@@ -68,6 +69,10 @@ footer h1{
 .find {
     text-align: center;
     padding-left: 25%;
+}
+
+footer{
+    font-size: 0.5vw;
 }
 
 
@@ -84,8 +89,10 @@ body{
 /* U18*/
 
 .U18{
-    color: rgb(226, 208, 43);
+    color: rgb(0, 0, 0);
     font-family: Rockwell;
+    font-size: 150%;
+    text-align: center;
 }
 
 
@@ -97,3 +104,37 @@ body{
     font-size: 200%;
 }
 
+
+
+
+
+
+/* Age stuff*/
+
+
+#ageMenu{
+    margin-left: 10%;
+}
+
+
+#ageList ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #1cd69e;
+}
+
+
+
+#ageList li{
+    display: block;
+    background-color: rgb(118, 87, 66);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#ageList li:hover {
+    
+    color: white;
+  }
