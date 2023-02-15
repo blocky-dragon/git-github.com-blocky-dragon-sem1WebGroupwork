@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    height: 203px;
+    background: url(/src/img/alienbg.png) no-repeat;
+    background-size: cover;
+}
+
+/* .logo_section{
+
+} */
+
+ul{
+    display: flex;
+    justify-content: center;    
+}
+
+.logo{
+  text-align: center;
+  font-weight: 900;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+.bold_red{
+    color:#FF0000;
+    font-size: 50px;
+}
+
+.bold{
+    color:#ffffff;
+    font-size: 55px;
+}
+
+.light{
+    color:#ffffff;
+    font-size: 25px;
+}
+
+
+.main_logo{ 
+    margin-top: 1%;
+    margin-left: 3%;
+    flex-direction: column;
+    height: 100%;
+    width: 150px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    margin: 0 20px;
+}
+
+nav{
+    margin-top: 28px;
+    background-color: black;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-direction: row;
+    
+}
+
+nav li{
+    display: inline;
+    float: left;
+    width: 25%;
+    margin: 0;  
+}
+
+nav li a{
+    text-align: center;
+    display: block;
+}

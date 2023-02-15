@@ -175,11 +175,11 @@ body{
 /* activity stuff*/
 
 
-#activityMenu{
+#typeMenu{
     margin-left: 33%;
 }
 
-#activityMenu ul{
+#typeSelect ul{
     margin: 0;
     padding: 0;
     width: 20%;
@@ -187,12 +187,12 @@ body{
 }
 
 
-#firstAge{
+#alienOne{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
-#lastAge{
+#alienBlock{
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
@@ -200,7 +200,7 @@ body{
 
 
 
-#activityList li{
+#typeList li{
     display: none;
     background-color: rgb(118, 87, 66);
     padding: 10%;
@@ -208,12 +208,12 @@ body{
     text-decoration: none;
 }
 
-#activityList li:hover{
+#typeList li:hover{
     background-color: rgb(138, 154, 91);
 }
 
 
-#activitySelect{
+#typeSelect{
     width: 50%;
     padding: 1%;
     text-decoration: none;
@@ -221,7 +221,7 @@ body{
     background-color: rgb(68, 92, 131);
 }
 
-#activitySelect:hover{
+#typeSelect:hover{
     background-color: rgb(138, 154, 91);
 }
 
@@ -229,4 +229,38 @@ body{
 
 .dataChooser{
     display: flex;
+}
+
+
+/*outputs */
+
+.outputHeading{
+    display: none;
+    color: green;
+}
+
+#outputGeneral{
+    display: none;
+    color: green;
+}
+
+#outputDetails{
+    display: none;
+    color: green;
+}
+
+#outputBooking{
+    display: none;
+    color: green;
+}
+
+
+#outputBookingDetails{
+    display: none;
+    color: green;
+}
+
+#outputDetailsTitle{
+    display: none;
+    color: green;
 }
