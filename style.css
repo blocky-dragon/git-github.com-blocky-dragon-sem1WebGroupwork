@@ -61,6 +61,10 @@ li{
     margin: 0 20px;
 }
 
+
+
+/* changes here \/ */
+
 nav{
     margin-top: 28px;
     background-color: black;
@@ -69,6 +73,8 @@ nav{
     flex-direction: row;
     
 }
+
+
 
 nav li{
     display: inline;
