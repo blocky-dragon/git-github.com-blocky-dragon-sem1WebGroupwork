@@ -1,53 +1,82 @@
-p{
-    font-family: 'Helvetica';
+/*Marks additions*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
 }
-/* vars */
 
+header{
+    display: flex;
+    flex-direction: column;
+    height: 208px;
+    background: url(images/alienbg.png) no-repeat;
+    background-size: cover;
+    clear: both;
+}
 
+.logo{
+    text-align: center;
+    font-weight: 900;
+    line-height: 40px;
+    white-space: nowrap;
+  }
 
-/* nav bar */
+  .bold_red{
+    color:#FF0000;
+    font-size: 50px;
+}
+
+.bold{
+    color:#ffffff;
+    font-size: 55px;
+}
+
+.light{
+    color:#ffffff;
+    font-size: 25px;
+}
+
+.main_logo{ 
+    margin-top: 1%;
+    margin-left: 3%;
+    flex-direction: column;
+    height: 100%;
+    width: 150px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    margin: 0 20px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;    
+}
 
 nav{
-    width: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    position: fixed;
-}
-
-nav ul{
-    list-style-type: none; 
-    padding: 0;
-    margin: 0;
+    margin-top: 30px;
+    background-color: black;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-direction: row;
 }
 
 nav li{
     display: inline;
     float: left;
     width: 25%;
-    padding: 0.5% 0% 0.5% 0%;
-    margin: 0;
-    background-color: rgb(118, 87, 66);
-    
-    
+    margin:0;
 }
 
 nav li a{
-    font-family: Rockwell;
-    display: block;
     text-align: center;
-    color: white;
-    font-size: 1vw;
-    text-decoration: none;
+    display: block;
 }
-
-nav li:hover{
-    background-color: rgb(138, 154, 91); 
-}
-
-
-
-
 
 /* footer*/
 
@@ -81,19 +110,6 @@ footer {
     text-align: center;
     padding-left: 25%;
 }
-
-
-
-
-
-/* body*/
-
-body{
-    /* 5% top padding to be seen*/
-    padding-top: 2%;
-}
-
-
 
 /* U18*/
 
@@ -226,6 +242,7 @@ body{
 }
 
 
+
 .dataChooser{
     display: flex;
 }
@@ -248,9 +265,7 @@ body{
     padding: 1%;
     flex-basis: 18%;
     flex-shrink: 0;
-    border: 10px;
-    border-style: double;
-    border-color: black;
+    font-weight: bold;
 }
 
 .comps .title {
@@ -260,3 +275,31 @@ body{
 .subtitle{
     font-size: 130%;
 }
+
+.compsMainBody{
+    margin: 5%;
+}
+
+/*registration*/
+
+
+.alienRockRegister{
+    font-size: 150%;
+    padding-left: 40px;
+    border:20px Double red;
+    text-align: center;
+    }
+    
+    .application-img{
+    overflow: hidden;
+    display: inline-block;
+    }
+    
+    .img-1,  .img-2 {
+        float: left;
+        padding-right: 30px;
+    }
+    
+    .privacyDetails{
+        font-size: 111%;
+    }
