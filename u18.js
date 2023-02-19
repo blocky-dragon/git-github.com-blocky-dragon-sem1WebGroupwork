@@ -58,6 +58,8 @@ window.onload = function(){
     outputBooking = document.getElementById('outputBooking');
     outputBookingDetails = document.getElementById('outputBookingDetails');
     outputDetailsTitle = document.getElementById('outputDetailsTitle');
+
+    hideOutput()
 }
 
 
@@ -131,6 +133,9 @@ function kidsClubSelected(){
 
 
 function ageSelected(){
+            
+    ageBtn.style.display = "inline-block";
+    activityBtn.style.display = "inline-block";
 
     //hide the stuff
     for(i = 0; i < ageList.length; i ++){
@@ -162,6 +167,9 @@ function ageSelected(){
 
 
 function activitySelected(){
+
+    ageBtn.style.display = "inline-block";
+    activityBtn.style.display = "inline-block";
 
     //hide the stuff
     for(i = 0; i < activityList.length; i ++){
@@ -196,11 +204,11 @@ function activitySelected(){
 //when age is hit
 function selectAge(){
 
-
+    hideOutput()
     ageBtn.innerHTML = "Select:"
-
+    activityBtn.style.display = "none";
     for(i = 0; i < ageList.length; i ++){
-        ageList[i].style.display = "block";
+        ageList[i].style.display = "inline-block";
     }
 }
 
@@ -210,11 +218,11 @@ function selectAge(){
 //when select activity is hit
 function selectActivity(){
 
-
+    hideOutput()
     activityBtn.innerHTML = "Select:"
-
+    ageBtn.style.display = "none";
     for(i = 0; i < activityList.length; i ++){
-        activityList[i].style.display = "block";
+        activityList[i].style.display = "inline-block";
     }
 }
 
@@ -354,4 +362,15 @@ function showBookings(){
         outputDetails.innerHTML = "Booking is advised." + bookingEnd;
     }
 
+}
+
+//hides the output
+
+function hideOutput(){
+    outputHeading[0].style.display = "none";
+    outputGeneral.style.display = "none";
+    outputDetails.style.display = "none";
+    outputBooking.style.display = "none";
+    outputBookingDetails.style.display = "none";
+    outputDetailsTitle.style.display = "none";
 }

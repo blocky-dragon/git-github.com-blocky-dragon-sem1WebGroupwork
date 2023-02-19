@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
+
 }
 
 header{
@@ -59,7 +60,7 @@ header ul{
 }
 
 nav{
-    margin-top: 30px;
+    margin-top: 24px;
     background-color: black;
     justify-content: space-around;
     align-content: space-between;
@@ -69,7 +70,7 @@ nav{
 nav li{
     display: inline;
     float: left;
-    width: 25%;
+    width: 20%;
     margin:0;
 }
 
@@ -77,6 +78,25 @@ nav li a{
     text-align: center;
     display: block;
 }
+
+.active{
+    text-align: center;
+    display: block;
+    background-color: #790000;
+}
+
+
+/* footer*/
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+
+
 
 /* footer*/
 
@@ -115,19 +135,10 @@ footer {
 
 .U18{
     color: rgb(0, 0, 0);
-    font-family: Rockwell;
-    font-size: 1vw;
     text-align: center;
 }
 
 
-.U18 .title{
-    color: rgb(138, 154, 91); 
-    text-align: center;
-    font-family: Rockwell;
-    font-weight: bold;
-    font-size: 2vw;
-}
 
 
 
@@ -137,37 +148,40 @@ footer {
 /* Age stuff*/
 
 
-#ageMenu{
-    margin-left: 33%;
+
+.dataChooser{
+    display: flex;
 }
+
+#ageMenu, #typeMenu{
+    flex: 1;
+}
+
+
 
 #ageMenu ul{
     margin: 0;
     padding: 0;
     width: 100%;
     padding-left: 0%;
+    
 }
 
 
-#firstAge{
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-#lastAge{
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
 
 
 
 #ageList li{
-    display: none;
+    list-style-position: inside;
+    text-align: center;
     background-color: rgb(118, 87, 66);
-    padding: 10%;
-    width: 200%;
+    padding: 2%;
+    width: 200px;
+    display: none;
     text-decoration: none;
+    border-radius: 15px;
 }
+
 
 #ageList li:hover{
     background-color: rgb(138, 154, 91);
@@ -175,11 +189,13 @@ footer {
 
 
 #ageSelect{
-    width: 100%;
-    
+    width: 200px;
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+    display: inline-block;
     text-decoration: none;
-    border-radius: 10px;
-    background-color: rgb(68, 92, 131);
+    border-radius: 15px;
+    background-color: rgb(173, 171, 0);
 }
 
 #ageSelect:hover{
@@ -201,51 +217,73 @@ footer {
 #activityMenu ul{
     margin: 0;
     padding: 0;
-    width: 20%;
+    width: 16%;
     padding-left: 5%;
 }
 
 
-#firstAge{
+#alienBlockSelect{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
-#lastAge{
+#kidsClubSelect{
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 
-#activityList li{
-    display: none;
+#typeList li{
+    list-style-position: inside;
+    text-align: center;
     background-color: rgb(118, 87, 66);
-    padding: 10%;
-    width: 20%;
+    padding: 2%;
+    width: 200px;
+    display: none;
     text-decoration: none;
+    border-radius: 15px;
 }
 
-#activityList li:hover{
+#typeList li:hover{
     background-color: rgb(138, 154, 91);
 }
 
 
-#activitySelect{
-    width: 50%;
-    padding: 1%;
+#typeSelect{
+    padding: 10px 0px 10px 0px;
+    width: 200px;
+    display: inline-block;
     text-decoration: none;
-    border-radius: 10px;
-    background-color: rgb(68, 92, 131);
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgb(173, 171, 0);
 }
 
-#activitySelect:hover{
+#typeSelect:hover{
     background-color: rgb(138, 154, 91);
 }
 
+
+/*outputs*/
 
 
 .dataChooser{
     display: flex;
+    position: relative;
 }
+
+
+.outputHeading{
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #790000;
+}
+
+#outputDetailsTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 /*comps*/
 
@@ -268,9 +306,6 @@ footer {
     font-weight: bold;
 }
 
-.comps .title {
-    font-size: 200%;
-}
 
 .subtitle{
     font-size: 130%;
@@ -286,20 +321,81 @@ footer {
 .alienRockRegister{
     font-size: 150%;
     padding-left: 40px;
-    border:20px Double red;
+    /*border:20px Double red;*/
     text-align: center;
     }
     
     .application-img{
     overflow: hidden;
     display: inline-block;
+    float: center;
+    
     }
     
-    .img-1,  .img-2 {
+    .img-1, .img-2{
+        
         float: left;
-        padding-right: 30px;
+        width: 50%;
     }
+
+
     
     .privacyDetails{
+        text-align: center;
+        margin-top: 400px;
         font-size: 111%;
     }
+
+
+/*contact*/
+.mapImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactTitle{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+
+
+.leftHandContact{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.rightHandContact{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+
+.contactDetails{
+    background: linear-gradient(
+        to right,
+        rgb(152, 192, 249) 0%,
+        rgb(152, 192, 249) 50%,
+        rgb(255, 255, 255) 50%,
+        rgb(255, 255, 255) 100%
+    );
+}
+
+
+
+
+/*home*/
+
+.homeSubTitle{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.homeBody{
+    text-align: center;
+}
