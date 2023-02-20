@@ -273,6 +273,8 @@ nav li a{
 
 .subtitle{
     font-size: 130%;
+    font-weight: bold;
+    text-align: center;
 }
 
 .compsMainBody{
@@ -361,11 +363,6 @@ nav li a{
     padding-right: 10%;
 }
 
-.homeSubtitle{
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-}
 
 .homeBody{
     font-size: 120%;
