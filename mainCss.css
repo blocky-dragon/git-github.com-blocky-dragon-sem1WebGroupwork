@@ -167,6 +167,14 @@ nav li a{
 
 
 
+.kidReviews .actualImage{
+    float: left;
+    width: 30%;
+    margin: 0px 1.6% 0px 1.6%;
+    display: block;
+    border: 4px solid #1b1b1b;
+}
+
 
 
 
@@ -246,6 +254,11 @@ nav li a{
 #outputDetailsTitle{
     font-size: 20px;
     font-weight: bold;
+}
+
+
+.outputHeading, #outputGeneral, #outputDetails, #outputBooking, #outputBookingDetails, #outputDetailsTitle{
+    display: none;
 }
 
 
