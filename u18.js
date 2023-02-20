@@ -14,6 +14,8 @@ var outputDetailsTitle = undefined;
 var outputBookingDetails = undefined;
 var headingString1 = "";
 var headingString2 = "";
+var u18Imgs = [];
+
 
 window.onload = function(){
 
@@ -57,7 +59,50 @@ window.onload = function(){
     outputBookingDetails = document.getElementById('outputBookingDetails');
     outputDetailsTitle = document.getElementById('outputDetailsTitle');
 
+
+    //get imgs
+    u18Imgs = document.getElementsByClassName('u18Img');
+
+    //kid1
+    u18Imgs[0].addEventListener('mouseover', kid1Hovered, false); 
+    u18Imgs[0].addEventListener('mouseleave', kid1DeHovered, false); 
+
+    //kid2
+    u18Imgs[1].addEventListener('mouseover', kid2Hovered, false); 
+    u18Imgs[1].addEventListener('mouseleave', kid2DeHovered, false); 
+
+    //kid3
+    u18Imgs[2].addEventListener('mouseover', kid3Hovered, false); 
+    u18Imgs[2].addEventListener('mouseleave', kid3DeHovered, false); 
+
     hideOutput()
+}
+
+
+
+
+//kids changes
+
+function kid1Hovered(){
+    u18Imgs[0].src = "images/kid1Hidden.png";
+}
+function kid1DeHovered(){
+    u18Imgs[0].src = "images/kid1.png";
+}
+
+function kid2Hovered(){
+    u18Imgs[1].src = "images/kid2Hidden.png";
+}
+function kid2DeHovered(){
+    u18Imgs[1].src = "images/kid2.png";
+}
+
+
+function kid3Hovered(){
+    u18Imgs[2].src = "images/kid3Hidden.png";
+}
+function kid3DeHovered(){
+    u18Imgs[2].src = "images/kid3.png";
 }
 
 
