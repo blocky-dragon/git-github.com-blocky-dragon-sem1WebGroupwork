@@ -1,5 +1,3 @@
-console.log("Hello world!");
-
 //declare vars
 
 var ageBtn = undefined;

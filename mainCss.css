@@ -6,6 +6,7 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
 
+
 }
 
 header{
@@ -334,16 +335,17 @@ footer {
     }
     
     .img-1, .img-2{
-        
+        display: inline-block;
         float: left;
         width: 50%;
     }
 
 
+
     
     .privacyDetails{
         text-align: center;
-        margin-top: 400px;
+        margin-top: 500px;
         font-size: 111%;
     }
 
