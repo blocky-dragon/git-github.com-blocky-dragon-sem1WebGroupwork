@@ -266,6 +266,7 @@ footer {
 }
 
 
+
 /*outputs*/
 
 
@@ -326,29 +327,29 @@ footer {
     padding-left: 40px;
     /*border:20px Double red;*/
     text-align: center;
-    }
+}
     
-    .application-img{
+.application-img{
     overflow: hidden;
     display: inline-block;
     float: center;
     
-    }
+}
     
-    .img-1, .img-2{
-        display: inline-block;
-        float: left;
-        width: 50%;
-    }
+.img-1, .img-2{
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
 
 
-
-    
-    .privacyDetails{
-        text-align: center;
-        margin-top: 500px;
-        font-size: 111%;
-    }
+ 
+.privacyDetails{
+    text-align: center;
+    margin-top: 500px;
+    font-size: 111%;
+    padding: 0% 10% 0% 10%;
+}
 
 
 /*contact*/
@@ -362,8 +363,6 @@ footer {
     font-size: 40px;
     font-weight: bold;
 }
-
-
 
 
 
