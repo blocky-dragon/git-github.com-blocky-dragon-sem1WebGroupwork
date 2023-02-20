@@ -95,44 +95,6 @@ nav li a{
     font-weight: bold;
 }
 
-
-
-
-
-
-/* footer*/
-
-footer {
-  background-color: rgb(118, 87, 66);
-  color: white;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  left: 0;
-  font-family: Rockwell;
-  display: flex;
-  text-align: center;
-  font-size: 0.5vw;
-  padding: 0.5% 0% 0.5% 0%;
-}
-
-.footerHeading{
-    font-size: 1vw;
-    font-style: normal;
-    padding: 0;
-    margin: 0;
-}
-
-.contact {
-    text-align: center;
-    padding-left: 25%;
-}
-
-.find {
-    text-align: center;
-    padding-left: 25%;
-}
-
 /* U18*/
 
 .U18{
