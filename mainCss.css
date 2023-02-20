@@ -198,11 +198,11 @@ footer {
     display: inline-block;
     text-decoration: none;
     border-radius: 15px;
-    background-color: rgb(173, 171, 0);
+    background-color: rgb(180, 62, 62);
 }
 
 #ageSelect:hover{
-    background-color: rgb(138, 154, 91);
+    background-color: rgb(91, 150, 154);
 }
 
 
@@ -247,7 +247,7 @@ footer {
 }
 
 #typeList li:hover{
-    background-color: rgb(138, 154, 91);
+    background-color: rgb(91, 150, 154);
 }
 
 
@@ -258,11 +258,11 @@ footer {
     text-decoration: none;
     border-radius: 15px;
     font-size: 20px;
-    background-color: rgb(173, 171, 0);
+    background-color: rgb(180, 62, 62);
 }
 
 #typeSelect:hover{
-    background-color: rgb(138, 154, 91);
+    background-color: rgb(91, 150, 154);
 }
 
 
@@ -433,6 +433,8 @@ footer {
 }
 
 .caption{
+    text-align: center;
+    padding: 0px 40px 0px 40px;
     background-color: black;
     color: #ffffff;
     font-weight: 900;
@@ -457,4 +459,50 @@ footer {
 .actualImage a{
     display: block;
     height: 100%;
+}
+
+
+/*courses*/
+
+#taster, #adult, #improver, #leading, #parents{
+    display: none;
+}
+
+#courseSelection li{
+    list-style-position: inside;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 20%;
+    display: block;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+#courseSelection li:hover{
+    background-color: rgb(154, 98, 91);
+}
+
+
+#courseSelection{
+    display: flex;
+    justify-content: center; 
+    justify-content: space-around;
+    align-content: space-between;
+    flex-direction: row;
+}
+
+.courses{
+    text-align: center;
+    font-size: 120%;
+}
+
+.courses h2{
+    color: rgb(143, 0, 0);
+}
+
+.courses ul li{
+    list-style-type: none;
 }
