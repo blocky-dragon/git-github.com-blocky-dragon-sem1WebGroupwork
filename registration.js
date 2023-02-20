@@ -1,6 +1,7 @@
 //declare vars
 
 var rockButton = undefined;
+var blocButton = undefined;
 
 window.onload = function(){
 
