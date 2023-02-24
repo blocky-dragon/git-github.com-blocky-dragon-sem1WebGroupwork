@@ -172,7 +172,7 @@ nav li a{
     width: 30%;
     margin: 0px 1.6% 0px 1.6%;
     display: block;
-    border: 4px solid #1b1b1b;
+    border: 4px solid rgb(0, 0, 0);
 }
 
 
@@ -315,7 +315,13 @@ nav li a{
     padding-left: 40px;
     /*border:20px Double red;*/
     text-align: center;
+
 }
+
+.alienRockRegister ul li{
+    list-style-type: none;
+}
+
     
 .application-img{
     overflow: hidden;
@@ -337,6 +343,10 @@ nav li a{
     margin-top: 500px;
     font-size: 111%;
     padding: 0% 10% 0% 10%;
+}
+
+#actualImg1, #actualImg2, .resisterImg{
+    border: 4px solid rgb(0, 0, 0);
 }
 
 
