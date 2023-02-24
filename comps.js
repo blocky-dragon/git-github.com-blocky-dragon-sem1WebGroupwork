@@ -10,22 +10,22 @@ window.onload = function(){
 
 
     //get the dcTrophy button
-    dcTrophyButton = document.getElementById('actualImg1');
+    dcTrophyButton = document.getElementById('trophImg1');
     dcTrophyButton.addEventListener('mouseover', dcHovered, false); 
     dcTrophyButton.addEventListener('mouseleave', dcDeHovered, false); 
 
     //get the scTrophy button
-    scTrophyButton = document.getElementById('actualImg2');
+    scTrophyButton = document.getElementById('trophImg2');
     scTrophyButton.addEventListener('mouseover', scHovered, false); 
     scTrophyButton.addEventListener('mouseleave', scDeHovered, false)
 
     //get the mTrophy button
-    mTrophyButton = document.getElementById('actualImg3');
+    mTrophyButton = document.getElementById('trophImg3');
     mTrophyButton.addEventListener('mouseover', mHovered, false); 
     mTrophyButton.addEventListener('mouseleave', mDeHovered, false)
 
     //get the ghTrophy button
-    ghTrophyButton = document.getElementById('actualImg4');
+    ghTrophyButton = document.getElementById('trophImg4');
     ghTrophyButton.addEventListener('mouseover', ghHovered, false); 
     ghTrophyButton.addEventListener('mouseleave', ghDeHovered, false)
 
@@ -44,20 +44,20 @@ function dcDeHovered(){
 
 //scTrophy
 function scHovered(){
-    scTrophyButton.src = "images/alienBlocHidden.png";
+    scTrophyButton.src = "images/fadedTrophy2.png";
 }
 
 function scDeHovered(){
-    scTrophyButton.src = "images/alienBloc.png";
+    scTrophyButton.src = "images/trophy2.png";
 }
 
 //mTrophy
 function mHovered(){
-    mTrophyButton.src = "images/alienBlocHidden.png";
+    mTrophyButton.src = "images/fadedTrophy3.png";
 }
 
 function mDeHovered(){
-    mTrophyButton.src = "images/alienBloc.png";
+    mTrophyButton.src = "images/trophy3.png";
 }
 
 //ghTrophy

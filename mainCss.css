@@ -284,11 +284,6 @@ nav li a{
     padding-left: 12%;
     padding-right: 12%;
     margin-bottom: 5%;
-    /* margin: 1%;
-    padding: 1%;
-    flex-basis: 18%;
-    flex-shrink: 0;
-    font-weight: bold; */
 }
 
 .trophyImg{
@@ -306,6 +301,10 @@ nav li a{
 .compsMainBody{
     margin: 5%;
 }
+#trophImg1, #trophImg2, #trophImg3, #trophImg4{
+    border: 4px solid rgb(0, 0, 0);
+}
+
 
 /*registration*/
 
