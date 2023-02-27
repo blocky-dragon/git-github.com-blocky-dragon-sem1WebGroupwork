@@ -39,7 +39,7 @@ function dcHovered(){
 }
 
 function dcDeHovered(){
-    dcTrophyButton.src = "images/trophy1.png";
+    dcTrophyButton.src = "images/trophy1.jpg";
 }
 
 //scTrophy
@@ -57,7 +57,7 @@ function mHovered(){
 }
 
 function mDeHovered(){
-    mTrophyButton.src = "images/trophy3.png";
+    mTrophyButton.src = "images/trophy3.jpg";
 }
 
 //ghTrophy
@@ -66,5 +66,5 @@ function ghHovered(){
 }
 
 function ghDeHovered(){
-    ghTrophyButton.src = "images/Trophy4.png";
+    ghTrophyButton.src = "images/trophy4.jpg";
 }
