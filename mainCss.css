@@ -300,6 +300,25 @@ nav li a{
     min-width: 250px;
 }
 
+#upperBody{
+    padding:0%,5%,0%,5%;
+}
+
+#upperBody .mainText{
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#compDates{
+text-align: center;
+}
+
+#rulesNinfo a{
+    text-decoration: none;
+    color:#000000;
+}
+
 .subtitle{
     font-size: 130%;
     font-weight: bold;
